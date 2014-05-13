@@ -24,7 +24,7 @@ describe Task do
     end
 
     it "should have a created_at timestampe" do
-      task.created_at.should be_a(DateTime)
+      task.created_at.should be_a(Time) # *******Could not access DateTime
     end
 
   end
